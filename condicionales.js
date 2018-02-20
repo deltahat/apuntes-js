@@ -1,10 +1,10 @@
 const starWars7 = "Star Wars 7 el despertar de la fuerza"
 const pgStarWars7 = 13
 
-const nameSacha = "Sacha"
+const nameDelta = "Delta"
 const nameSantiago = "Santiago"
 
-const ageSacha = 26
+const ageDelta = 23
 const ageSantiago = 12
 
 function canWatchStarwars7(name, age, isWhitAdult = false){
@@ -20,5 +20,5 @@ function canWatchStarwars7(name, age, isWhitAdult = false){
   }
 }
 
-canWatchStarwars7(nameSacha, ageSacha)
+canWatchStarwars7(nameDelta, ageDelta)
 canWatchStarwars7(nameSantiago, ageSantiago, true)
